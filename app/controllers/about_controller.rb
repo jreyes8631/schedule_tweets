@@ -1,6 +1,6 @@
 class AboutController < ApplicationController
   
  def index 
-    flash[:notice] = "Welcome"
+    flash.now[:notice] = "Welcome"
  end
 end 
